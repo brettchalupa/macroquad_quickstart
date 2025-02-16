@@ -1,6 +1,3 @@
-/// enum of various scenes that exist
-// not sure if there's a better way to do this...
-#[derive(Clone, Debug)]
 pub enum EScene {
     Gameplay,
     MainMenu,

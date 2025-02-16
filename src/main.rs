@@ -81,12 +81,11 @@ async fn main() {
             break;
         }
 
-        if let Some(escene) = ctx.switch_scene_to.clone() {
+        if let Some(escene) = ctx.switch_scene_to.take() {
             current_scene = match escene {
                 EScene::MainMenu => Box::new(MainMenu::new(&mut ctx).await),
                 EScene::Gameplay => Box::new(Gameplay::new(&mut ctx).await),
             };
-            ctx.switch_scene_to = None;
         }
 
         next_frame().await
