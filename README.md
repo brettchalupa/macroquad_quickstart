@@ -2,7 +2,7 @@
 
 Opinionated template for buiding games in Rust with Macroquad, specfically focused on targeting the web and PC.
 
-🚨 work in progress, scripts best on Linux & macOS currently 🚨
+🚨 work in progress, automation shell scripts target on Linux & macOS currently 🚨
 
 ## Features / Bugs
 
@@ -13,12 +13,12 @@ Opinionated template for buiding games in Rust with Macroquad, specfically focus
 - draws to a 1280x720 render target by default
 - generate list of open source licenses for used crates
 - helpful utility functions
-- shell scripts for doing pretty much everything, they don't work on Windows
+- shell scripts for doing pretty much everything (they don't work on Windows, sorry)
 - easily push your game to itch.io
 
 ## Get Started
 
-Use the template feature on GitHub or just download the zip
+Use the template feature on GitHub or just [download the zip](https://github.com/brettchalupa/macroquad_quickstart/archive/refs/heads/main.zip).
 
 ## Dev Tools
 
